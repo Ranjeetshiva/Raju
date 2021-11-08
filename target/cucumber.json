@@ -1,0 +1,55 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-04T10:28:15.285Z",
+        "line": 4,
+        "name": "POS should login and enter his vessel information",
+        "description": "",
+        "id": "vessel-registration;pos-should-login-and-enter-his-vessel-information",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User sign up with following details",
+            "match": {
+              "location": "stepDefinitions.windows.LoginWindowStepDefs.userSignUpWithFollowingDetails(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "jenny",
+                  "abcd"
+                ]
+              },
+              {
+                "cells": [
+                  "jenny@abc.com",
+                  "Russia"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@JuneRelease"
+          }
+        ]
+      }
+    ],
+    "name": "Vessel Registration",
+    "description": "",
+    "id": "vessel-registration",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/windows/marine/registrations/vesselRegistration.feature",
+    "tags": []
+  }
+]
